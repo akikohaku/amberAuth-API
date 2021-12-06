@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="xom-1.0d10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/xom-1.0d10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
