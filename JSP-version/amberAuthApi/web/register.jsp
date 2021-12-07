@@ -16,8 +16,12 @@
     }
     else if(status==1){
         toprint="{\"status\":\"username used\"}";
-    }else{
+    }else if(status==-1){
         toprint="{\"status\":\"system error\"}";
+    }else if(status==2){
+        toprint="{\"status\":\"phone used\"}";
+    }else if(status==3){
+        toprint="{\"status\":\"email used\"}";
     }
 %>
 <%=toprint%>

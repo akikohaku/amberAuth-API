@@ -35,5 +35,9 @@
     <orderEntry type="library" name="mysql.connector.java" level="project" />
     <orderEntry type="library" name="mysql-connector-java-8.0.27" level="project" />
     <orderEntry type="library" name="protobuf-java-3.11.4" level="project" />
+    <orderEntry type="library" name="javax.mail" level="project" />
+    <orderEntry type="library" name="mail-1.5.0-b01" level="project" />
+    <orderEntry type="library" name="javax.activation" level="project" />
+    <orderEntry type="library" name="activation-1.1.1" level="project" />
   </component>
 </module>
