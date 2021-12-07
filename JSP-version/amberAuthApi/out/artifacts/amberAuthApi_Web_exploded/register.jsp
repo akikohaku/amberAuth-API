@@ -9,10 +9,6 @@
 <%
     String postdata =Common.getPostData(request.getInputStream(), request.getContentLength(), null);
     JSONObject getdata= JSON.parseObject(postdata);
-    String username=getdata.getString("username");
-    String password=getdata.getString("password");
-    String phone=getdata.getString("phone");
-    String email=getdata.getString("email");
     int status=new sqlControl().register(getdata);
     String toprint="";
     if(status==0){

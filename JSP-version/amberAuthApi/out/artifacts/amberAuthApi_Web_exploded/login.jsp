@@ -9,6 +9,6 @@
 <%
     String postdata =Common.getPostData(request.getInputStream(), request.getContentLength(), null);
     JSONObject getdata= JSON.parseObject(postdata);
-    String username=getdata.getString("username");
-    String password=getdata.getString("password");
+    JSONObject outdata=new sqlControl().loginByUserName(getdata);
 %>
+<%=outdata.toJSONString()%>

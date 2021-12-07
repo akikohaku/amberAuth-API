@@ -7,7 +7,7 @@ public class token {
 
     public String getToken(String uuid,int time){
         PasswordEncoder encoderMd5 = new PasswordEncoder(_serverSecret, "MD5");
-        String encode = encoderMd5.encode(uuid+Integer.toString(time)+new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(System.currentTimeMillis()));
+        String encode = encoderMd5.encode(uuid+Integer.toString(time)+new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(System.currentTimeMillis())+_serverSecret);
         return encode;
     }
 }
