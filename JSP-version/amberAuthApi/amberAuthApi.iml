@@ -39,5 +39,14 @@
     <orderEntry type="library" name="mail-1.5.0-b01" level="project" />
     <orderEntry type="library" name="javax.activation" level="project" />
     <orderEntry type="library" name="activation-1.1.1" level="project" />
+    <orderEntry type="library" name="tencentcloudapi.tencentcloud.sdk.java" level="project" />
+    <orderEntry type="library" name="okio-1.12.0" level="project" />
+    <orderEntry type="library" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" name="gson-2.2.4" level="project" />
+    <orderEntry type="library" name="ini4j-0.5.4" level="project" />
+    <orderEntry type="library" name="jaxb-api-2.3.0" level="project" />
+    <orderEntry type="library" name="logging-interceptor-2.7.5" level="project" />
+    <orderEntry type="library" name="okhttp-2.7.5" level="project" />
+    <orderEntry type="library" name="tencentcloud-sdk-java-3.1.413" level="project" />
   </component>
 </module>
